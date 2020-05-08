@@ -31,7 +31,7 @@ setup(
     include_package_data=True,
     package_data={
         'bepasty': [ 'templates/*', 'static/*', ],
-    }
+    },
     zip_safe=False,
     entry_points={
         'console_scripts': [
