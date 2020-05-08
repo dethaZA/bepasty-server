@@ -29,6 +29,9 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     include_package_data=True,
+    package_data={
+        'bepasty': [ 'templates/*', 'static/*', ],
+    }
     zip_safe=False,
     entry_points={
         'console_scripts': [
@@ -60,5 +63,6 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ],
 )
