@@ -43,6 +43,7 @@ setup(
     install_requires=[
         'Flask',
         'Pygments',
+        'pyldap',
         'xstatic',
         'xstatic-bootbox',
         'xstatic-bootstrap<4.0.0.0',
