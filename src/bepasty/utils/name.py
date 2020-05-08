@@ -3,7 +3,7 @@ import random
 
 from werkzeug.routing import BaseConverter
 
-ID_LENGTH = 8
+ID_LENGTH = 32
 
 letters_lower = set("abcdefghijklmnopqrstuvwxyz")
 letters_upper = set("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
